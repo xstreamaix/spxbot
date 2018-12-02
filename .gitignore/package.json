@@ -1,0 +1,96 @@
+{
+  "_from": "miscord",
+  "_id": "miscord@4.1.11",
+  "_inBundle": false,
+  "_integrity": "sha512-BA9SG72pGSgfmqYHo/MGUcMMGOS+bGEdG1DPuQVNsyp+ljN/hKBU6EV6IsLLSPEAM6bVxbAn50t3B8EgB9hAFg==",
+  "_location": "/miscord",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "miscord",
+    "name": "miscord",
+    "escapedName": "miscord",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/miscord/-/miscord-4.1.11.tgz",
+  "_shasum": "bb24c8eaf973e059400997deca49f954d853192c",
+  "_spec": "miscord",
+  "_where": "C:\\Users\\user",
+  "author": {
+    "name": "Bjornskjald",
+    "email": "github@bjorn.ml",
+    "url": "https://bjorn.ml/"
+  },
+  "bin": {
+    "miscord": "bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/miscord/miscord/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "colors": "^1.3.2",
+    "discord.js": "^11.4.2",
+    "dot-prop": "^4.2.0",
+    "emoji-strip": "^1.0.1",
+    "js-yaml": "^3.12.0",
+    "libfb": "^1.3.9",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "remove-accents": "^0.4.2",
+    "request": "^2.88.0",
+    "semver": "^5.6.0",
+    "strip-ansi": "^5.0.0"
+  },
+  "deprecated": false,
+  "description": "Facebook Messenger to Discord bridge",
+  "devDependencies": {
+    "archiver": "^3.0.0",
+    "extract-zip": "^1.6.7",
+    "fs-extra": "^7.0.0",
+    "gh-release": "^3.4.0",
+    "pkg": "^4.3.4",
+    "standard": "^12.0.1",
+    "tmp": "0.0.33"
+  },
+  "homepage": "https://miscord.net",
+  "keywords": [
+    "messenger",
+    "discord",
+    "javascript",
+    "discord.js",
+    "bridge",
+    "bot"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "miscord",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miscord/miscord.git"
+  },
+  "scripts": {
+    "build": "node bin/build.js",
+    "postinstall": "node bin/postinstall.js",
+    "start": "node bin/index.js",
+    "test": "standard"
+  },
+  "standard": {
+    "globals": [
+      "config",
+      "messenger",
+      "discord",
+      "connections",
+      "logger"
+    ]
+  },
+  "version": "4.1.11"
+}
